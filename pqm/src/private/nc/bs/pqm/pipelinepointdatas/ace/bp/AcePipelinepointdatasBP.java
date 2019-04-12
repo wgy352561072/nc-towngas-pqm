@@ -13,4 +13,5 @@ public class AcePipelinepointdatasBP {
 		return new SchemeVOQuery<PipelinepointdatasVO>(PipelinepointdatasVO.class).query(querySheme,
 				null);
 	}
+	
 }
