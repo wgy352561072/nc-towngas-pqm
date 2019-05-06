@@ -67,7 +67,7 @@ public class PipelinepointdatasMaintainImpl extends AcePipelinepointdatasPubServ
 		if(addVOs != null && addVOs.length > 0){
 			for(int i = 0;i < addVOs.length;i ++){
 				PipelinepointdatasVO vo = (PipelinepointdatasVO) addVOs[i];
-				Object codeobj = vo.getAttributeValue("code");
+/*				Object codeobj = vo.getAttributeValue("code");
 				if(codeobj == null){
 					ExceptionUtils.wrappBusinessException("压力等级编码不能为空！");
 				}
@@ -75,7 +75,7 @@ public class PipelinepointdatasMaintainImpl extends AcePipelinepointdatasPubServ
 				if(codeSet.contains(code)){
 					ExceptionUtils.wrappBusinessException("压力等级编码:"+code+"存在重复！");
 				}
-				codeSet.add(code);
+				codeSet.add(code);*/
 				prevolist.add(vo);
 			}			
 		}		
