@@ -29,7 +29,7 @@ public class PipelinepointDatasCheckCodeRule implements
 			}
 			Object pk_pipelinepointdatas = vo
 					.getAttributeValue("pk_pipelinepointdatas");
-			vo.setAttributeValue("pk_project", "1002A910000000NOZORS");
+			//vo.setAttributeValue("pk_project", "1002A910000000NOZORS");
 			Object pk_projectobj = vo.getAttributeValue("pk_project");
 			if (pk_projectobj == null) {
 				continue;

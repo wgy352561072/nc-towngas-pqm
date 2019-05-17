@@ -47,7 +47,7 @@ public class PipelinepointDatasAutoCodeRule implements IRule<PipelinepointdatasV
 			if( code!= null){
 				continue;
 			}
-			vo.setAttributeValue("pk_project", "1002A910000000NOZORS");
+			//vo.setAttributeValue("pk_project", "1002A910000000NOZORS");
 			Object pk_projectobj = vo.getAttributeValue("pk_project");
 			if(pk_projectobj == null){
 				vo.setAttributeValue("code", 999999999);
